@@ -37,6 +37,8 @@ class QuickBooks_QBXML_Schema_Object_CustomerAddRq extends QuickBooks_QBXML_Sche
 		static $paths = array (
   'Name' => 'STRTYPE',
   'IsActive' => 'BOOLTYPE',
+  'ClassRef ListID' => 'IDTYPE',
+  'ClassRef FullName' => 'STRTYPE',
   'ParentRef ListID' => 'IDTYPE',
   'ParentRef FullName' => 'STRTYPE',
   'CompanyName' => 'STRTYPE',
@@ -125,6 +127,8 @@ class QuickBooks_QBXML_Schema_Object_CustomerAddRq extends QuickBooks_QBXML_Sche
 		static $paths = array (
   'Name' => 41,
   'IsActive' => 0,
+  'ClassRef ListID' => 0,
+  'ClassRef FullName' => 159,
   'ParentRef ListID' => 0,
   'ParentRef FullName' => 0,
   'CompanyName' => 41,
@@ -213,6 +217,8 @@ class QuickBooks_QBXML_Schema_Object_CustomerAddRq extends QuickBooks_QBXML_Sche
 		static $paths = array (
   'Name' => false,
   'IsActive' => true,
+  'ClassRef ListID' => true,
+  'ClassRef FullName' => true,
   'ParentRef ListID' => true,
   'ParentRef FullName' => true,
   'CompanyName' => true,
@@ -299,6 +305,8 @@ class QuickBooks_QBXML_Schema_Object_CustomerAddRq extends QuickBooks_QBXML_Sche
 		static $paths = array (
   'Name' => 999.99,
   'IsActive' => 999.99,
+  'ClassRef ListID' => 999.99,
+  'ClassRef FullName' => 999.99,
   'ParentRef ListID' => 999.99,
   'ParentRef FullName' => 999.99,
   'CompanyName' => 999.99,
@@ -387,6 +395,8 @@ class QuickBooks_QBXML_Schema_Object_CustomerAddRq extends QuickBooks_QBXML_Sche
 		static $paths = array (
   'Name' => false,
   'IsActive' => false,
+  'ClassRef ListID' => false,
+  'ClassRef FullName' => false,
   'ParentRef ListID' => false,
   'ParentRef FullName' => false,
   'CompanyName' => false,
@@ -484,6 +494,8 @@ class QuickBooks_QBXML_Schema_Object_CustomerAddRq extends QuickBooks_QBXML_Sche
 		static $paths = array (
   'Name',
   'IsActive',
+  'ClassRef ListID',
+  'ClassRef FullName',
   'ParentRef ListID',
   'ParentRef FullName',
   'CompanyName',
