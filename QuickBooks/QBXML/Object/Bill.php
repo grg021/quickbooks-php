@@ -218,8 +218,17 @@ class QuickBooks_QBXML_Object_Bill extends QuickBooks_QBXML_Object
 				
 				break;
 			case 'BillModRq':
-				
-				
+
+                if (isset($this->_object['ItemLine']))
+                {
+                    $this->_object['ItemLineMod'] = $this->_object['ItemLine'];
+                }
+
+                if (isset($this->_object['ExpenseLine']))
+                {
+                    $this->_object['ExpenseLineMod'] = $this->_object['ExpenseLine'];
+                }
+
 				break;
 		}
 		
