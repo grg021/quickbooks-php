@@ -115,6 +115,26 @@ class QuickBooks_QBXML_Object_TimeTracking extends QuickBooks_QBXML_Object
         return $this->get('IsBillable');
     }
 
+    public function setPayrollItemFullName($name)
+    {
+        return $this->set('PayrollItemWageRef FullName', $name);
+    }
+
+    public function getPayrollItemFullName()
+    {
+        return $this->get('PayrollItemWageRef FullName');
+    }
+
+    public function setPayrollItemListID($ListID)
+    {
+        return $this->set('PayrollItemWageRef ListID', $ListID);
+    }
+
+    public function getPayrollItemListID()
+    {
+        return $this->get('PayrollItemWageRef ListID');
+    }
+
     /**
      * Return a constant indicating the type of object
      *
