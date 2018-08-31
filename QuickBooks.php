@@ -354,6 +354,7 @@ define('QUICKBOOKS_IMPORT_CHECK', 'CheckImport');
 
 define('QUICKBOOKS_OBJECT_CLASS', 'Class');
 define('QUICKBOOKS_ADD_CLASS', 'ClassAdd');
+define('QUICKBOOKS_MOD_CLASS', 'ClassMod');
 define('QUICKBOOKS_QUERY_CLASS', 'ClassQuery');
 define('QUICKBOOKS_IMPORT_CLASS', 'ClassImport');
 
