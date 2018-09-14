@@ -27,7 +27,7 @@ class QuickBooks_QBXML_Schema_Object_TimeTrackingQueryRq extends QuickBooks_QBXM
 {
     protected function &_qbxmlWrapper()
     {
-        static $wrapper = 'TimeTrackingQuery';
+        static $wrapper = '';
 
         return $wrapper;
     }
